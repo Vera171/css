@@ -5,40 +5,41 @@ span {
 }
 
 div p {
-    color: green;
+  color: green;
 }
+
 div p span {
-    color: blue;
+  color: blue;
 }
+
 ul li > span {
-    font-weight: bold;
+  font-weight: bold;
 }
-ul li+li {
-    color: aqua;
+
+ul li + li {
+  color: aqua;
 }
- br ~ p {
-    font-size: 30px;
- }
- a[target] {
-    background-color: yellow;
 
- }
- a[target="_blank"] {
-    background-color: blue;
+br ~ p {
+  font-size: 30px;
+}
 
- }
+a[target] {
+  background-color: yellow;
+}
 
- a[href^="http://123"] {
-    background-color: aqua;
- }
+a[target="_blank"] {
+  background-color: blue;
+}
 
- a[href$="jpg"] {
-    background-color: teal;
- }
+a[href^="http://123"] {
+  background-color: aqua;
+}
 
- a[href^="http://123"] {
-    background-color: aqua;
- }
- a[href*="link"] {
-    background-color: rebeccapurple;
- }
+a[href$=".jpg"] {
+  background-color: teal;
+}
+
+a[href*="link"] {
+  background-color: rebeccapurple;
+}
