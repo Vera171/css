@@ -14,3 +14,7 @@ a:hover {
 a:active {
     color: green;
 }
+
+a:focus {
+    font-weight: bold;
+}
